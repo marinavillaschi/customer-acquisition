@@ -6,7 +6,7 @@
 2. [Project Description](#description)
 3. [File Descriptions](#files)
 4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#author)
+5. [Authors and Acknowledgements](#author)
 
 ## Installation <a name="installation"></a>
 
@@ -45,19 +45,19 @@ This project is composed of the following steps:
 
 Below are additional details about the project structure:
 
-* [0_data_sampling.ipynb](https://github.com/marinavillaschi/customer-acquisition-project/blob/main/1_data_preparation.ipynb) : notebook that takes in the full datasets and exports a sample version of them so it's a bit easier to work through all the other steps of the project.
+* [0_data_sampling.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/0_data_sampling.ipynb) : notebook that takes in the full datasets and exports a sample version of them so it's a bit easier to work through all the other steps of the project.
 
 
-* [1_data_preparation.ipynb](https://github.com/marinavillaschi/customer-acquisition-project/blob/main/1_data_preparation.ipynb) : notebook containing all the data preparation steps.
+* [1_data_preparation.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/1_data_preparation.ipynb) : notebook containing all the data preparation steps.
 
 
-* [2_customer_segmentation.ipynb](https://github.com/marinavillaschi/customer-acquisition-project/blob/main/2_customer_segmentation.ipynb) : notebook containing the unsupervised learning model for making customers segments.
+* [2_customer_segmentation.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/2_customer_segmentation.ipynb) : notebook containing the unsupervised learning model for making customers segments.
 
 
-* [3_model.ipynb](https://github.com/marinavillaschi/customer-acquisition-project/blob/main/3_classification_model.ipynb) : notebook containing the classification model to predict which individuals to send the marketing campaing to.
+* [3_model.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/3_classification_model.ipynb) : notebook containing the classification model to predict which individuals to send the marketing campaing to.
  
 
-* [/data](https://github.com/marinavillaschi/customer-acquisition-project/tree/main/data) : contains all the data files used on this project:
+* [/data](https://github.com/marinavillaschi/customer-acquisition/tree/main/data) : contains all the data files used on this project:
 
     - ~~both .csv full dataset files used on the `0_data_sampling` notebook to make a sample out of them.~~
     
@@ -67,7 +67,7 @@ Below are additional details about the project structure:
 
     - both .csv mail-out files used for training and testing of the supervised model in the `3_model` notebook.
 
-    - [/data_description](https://github.com/marinavillaschi/customer-acquisition-project/tree/main/data/data_description) : contains two Excel spreadsheets that holds detailed information about the attributes of the datasets.
+    - [/data_description](https://github.com/marinavillaschi/customer-acquisition/tree/main/data/data_description) : contains two Excel spreadsheets that holds detailed information about the attributes of the datasets.
 
 
 
