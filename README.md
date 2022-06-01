@@ -74,6 +74,8 @@ Below are additional details about the project structure:
 
     - [/data_description](https://github.com/marinavillaschi/customer-acquisition/tree/main/data/data_description) : contains two Excel spreadsheets that holds detailed information about the attributes of the datasets.
 
+    - [/predictions](https://github.com/marinavillaschi/customer-acquisition/tree/main/data/predictions) : contains `pred` csv file which is the clean test dataset with predictions made by the model.
+
 
 
 ## Results<a name="results"></a>
