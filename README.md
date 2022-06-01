@@ -51,10 +51,13 @@ Below are additional details about the project structure:
 * [1_data_preparation.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/1_data_preparation.ipynb) : notebook containing all the data preparation steps.
 
 
-* [2_customer_segmentation.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/2_customer_segmentation.ipynb) : notebook containing the unsupervised learning model for making customers segments.
+* [2_cluster_prep.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/2_cluster_prep.ipynb) : notebook containing approaches testing for the the unsupervised learning model.
 
 
-* [3_model.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/3_classification_model.ipynb) : notebook containing the classification model to predict which individuals to send the marketing campaing to.
+* [3_customer_segmentation.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/3_customer_segmentation.ipynb) : notebook containing the unsupervised learning model for making customers segments.
+
+
+* [4_classification_model.ipynb](https://github.com/marinavillaschi/customer-acquisition/blob/main/4_classification_model.ipynb) : notebook containing the classification model to predict which individuals to send the marketing campaing to.
  
 
 * [/data](https://github.com/marinavillaschi/customer-acquisition/tree/main/data) : contains all the data files used on this project:
@@ -63,9 +66,11 @@ Below are additional details about the project structure:
     
         _these files were deleted from the repo as they're too large._
 
-    - both .csv files used on the `1_data_preparation` notebook as well as both .csv files containing clean and prepped data exported at the end of this notebook.
+    - both .csv files (`sample_AZDIAS` and `sample_CUSTOMERS`) used on the `1_data_preparation` notebook
+    
+    - both .csv mail-out files (`Udacity_MAILOUT_052018_TRAIN.csv` and `Udacity_MAILOUT_052018_TEST.csv`) used for training and testing of the supervised model in the `4_classification_model` notebook.
 
-    - both .csv mail-out files used for training and testing of the supervised model in the `3_model` notebook.
+    - all four .csv files (`clean_AZDIAS`, `clean_CUSTOMERS`, `clean_TRAIN` and `clean_TEST`) containing clean and prepped data exported at the end of the `1_data_preparation` notebook notebook.
 
     - [/data_description](https://github.com/marinavillaschi/customer-acquisition/tree/main/data/data_description) : contains two Excel spreadsheets that holds detailed information about the attributes of the datasets.
 
