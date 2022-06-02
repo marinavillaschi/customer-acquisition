@@ -82,7 +82,7 @@ Below are additional details about the project structure:
 
 Each notebook holds one step of the project. They were developed with markdown cells in such a way that it's easy to follow and the conclusions are drawn as it goes.
 
-Also, a blog post of the finding is available [here](https://pandascouple.medium.com/).
+Also, a blog post of the finding is available [here](https://pandascouple.medium.com/how-to-power-customer-acquisition-marketing-campaings-8ea879f41eca).
 
 
 ## Authors, and Acknowledgements <a name="author"></a>
