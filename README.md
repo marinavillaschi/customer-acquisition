@@ -37,7 +37,7 @@ This project is composed of the following steps:
 
 3. Classification Model
 
-    The previous analysis will be used to predict what individuals will respond to the marketing campaing so that the company can focus on them instead of the entire population.
+    The previous analysis will be used to predict what individuals will respond to the marketing campaing so that the company can focus on them instead of the entire population. [PyCaret](https://pycaret.gitbook.io/docs/) library will be used for this task!
 
 
 
